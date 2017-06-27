@@ -13,7 +13,7 @@ public class Anagram {
 		System.out.println("Enter the second strings ");
 		String s2 = sc.nextLine();
 		
-		if(!isAnagram(s1,s2)) {
+		if(isAnagram(s1,s2)) {
 			System.out.println("The two strings entered are anagrams of each other");
 		} else {
 			System.out.println("The two strings entered are not anagrams of each other");
